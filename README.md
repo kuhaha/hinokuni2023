@@ -19,8 +19,8 @@
 
 ## [P1] テキスト解析及び機械学習による卒業研究テーマトレンドの可視化
 ### テキスト解析（word_wakati.py）`
-- `word_seq(text, parser='janome')`
-- `create_parser(  parts_of_speech=['名詞'],stop_words=[])`
+- `word_seq(text, parser=None)`
+- `create_parser(worker='janome', parts_of_speech=['名詞'],stop_words=[])`
 1. 日本語文字列textに対し形態素解析器Janome/MeCabによって形態素解析を行う
 2. 指定品詞を抽出
 3. 不要語、記号を削除
